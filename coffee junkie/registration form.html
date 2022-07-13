@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en"
+<head>
+    <link rel="stylesheet" href="registration.css">
+	<title>Registration Form</title>
+</head>
+<body>
+
+<div class="container">
+    <h1>Register</h1>
+
+<form>
+<label for="first">First Name:</label>
+<input name="first" id="first" type="text"
+placeholder="femi" required>
+<label for="last">Last Name:</label>
+<input name="last" id="last" type="text"
+placeholder="joe" required>
+
+<div>
+	<label for="male">Male</label>
+	<input id="male" name="gender" type="radio" value="male">
+	<labelfor="female>Female</label>
+	<input id="female" name="gender" type="radio" value="female">
+	<label for="others">Others</label>
+	<input id="others" name="gender" type="radio" value="others">
+</div>
+
+<div>
+	<label for="email">
+		Email: 
+		 </label>
+	<input name="email" type="email" placeholder="your email" required>
+	<labelfor="password>
+	Password:
+	</label>
+	<input name="password" type="password" placeholder="password" required>
+</div>
+
+<div>
+	<label>
+	Birthday: 
+	<select>
+	    <option>Month </option>
+	    <option>jan</option>
+	    <option>feb </option>
+	    <option>mar</option>
+	</select>
+
+    <select>
+	    <option>Day</option>
+	    <option>1</option>
+		<option>2</option>
+		<option>3</option>
+	</select>
+
+	<select>
+		<option>Year</option>
+		<option>1999</option>
+		<option>19993</option>
+		<option>1183</option>
+	</select>
+</label>
+</div>
+
+<div>
+<label for="agree">I agree to the terms and conditions:</label>
+<input id="agree" name="agree" type="checkbox">
+</div>
+
+
+</div>
+
+<input type="submit">
+</div>
+
+</form>
+</body>
+</html>
